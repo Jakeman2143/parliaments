@@ -1,0 +1,21 @@
+﻿l_english:
+
+civic_representative_parliament:0"Parliamentary Representatives"
+civic_representative_parliament_desc:0"This society maintains a form of Parliamentary governance, where the legislature exerts dominance over the executive."
+
+gov_parliamentary_republic:0"Parliamentary Republic"
+gov_parliamentary_republic_desc:0"This government is a parliamentary democracy, where the executive is subject to extensive checks on its power by an elected legislature."
+RT_parliamentary_republic_pm:0"Prime Minister"
+
+building_constituency_office:0"Constituency Office"
+building_constituency_office_desc:0"This towering structure is where citizens of this planet meet their representatives to discuss issues of local or national importance."
+
+job_parliamentarian:0"Parliamentarian"
+job_parliamentarian_desc:0"A representative elected to the Lower House of this planet's country."
+job_parliamentarian_plural:0"Parliamentarians"
+mod_job_parliamentarian_per_pop:0"Parliamentarian Jobs become available every 3 Pops"
+
+job_senator:0"Senator"
+job_senator_desc:0"A representative elected to the Upper House of this planet's country."
+job_senator_plural:0"Senators"
+mod_job_senator_per_pop:0"Senator Jobs become available every 10 Pops"

@@ -1,0 +1,77 @@
+parliamentarian = {
+	category = ruler
+	condition_string = RULER_JOB_TRIGGER
+	building_icon = building_constituency_office
+	clothes_texture_index = 1
+
+	possible = {
+		ruler_job_check_trigger = yes
+	}
+
+	resources = {
+		category = planet_administrators
+		produces = {
+			unity = 5
+		}
+	}
+
+	weight = {
+		weight = @ruler_job_weight
+		modifier = {
+			factor = 0.1
+			has_citizenship_rights = no 
+			NOT = { has_trait = trait_mechanical } 
+		} 
+		modifier = {
+			factor = 2
+			has_trait = trait_charismatic
+		}
+		modifier = {
+			factor = 0.75
+			has_trait = trait_repugnant
+		} 
+		modifier = {
+			factor = 5
+			has_job = parliamentarian
+		}
+	}
+}
+
+senator = {
+	category = ruler
+	condition_string = RULER_JOB_TRIGGER
+	building_icon = building_constituency_office
+	clothes_texture_index = 1
+
+	possible = {
+		ruler_job_check_trigger = yes
+	}
+
+	resources = {
+		category = planet_administrators
+		produces = {
+			unity = 5
+		}
+	}
+
+	weight = {
+		weight = @ruler_job_weight
+		modifier = {
+			factor = 0.1
+			has_citizenship_rights = no 
+			NOT = { has_trait = trait_mechanical } 
+		} 
+		modifier = {
+			factor = 2
+			has_trait = trait_charismatic
+		}
+		modifier = {
+			factor = 0.75
+			has_trait = trait_repugnant
+		} 
+		modifier = {
+			factor = 5
+			has_job = senator
+		}
+	}
+}

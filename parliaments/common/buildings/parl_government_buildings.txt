@@ -1,0 +1,50 @@
+#############
+# Capital buildings
+#############
+
+# Constituency Office
+building_constituency_office = {
+	base_buildtime = 480
+	base_cap_amount = 1
+
+	category = government
+	
+	potential = {
+		exists = owner
+		owner = { has_valid_civic = civic_representative_parliament }
+		NOT = { has_modifier = slave_colony }
+	}
+	
+	allow = {
+		has_upgraded_capital = yes
+	}
+	
+	triggered_planet_modifier = {
+		potential = (
+			exists = owner
+			owner = = { is_regular_empire = yes )
+		}
+		modifier = {
+			job_parliamentarian_add = 4
+			job_senator_add = 2
+		}
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}			
+		upkeep = {
+			energy = 1
+		}
+	}
+	
+	triggered_desc = {
+		text = job_administrator_effect_desc
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}
