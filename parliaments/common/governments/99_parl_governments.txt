@@ -47,7 +47,7 @@ gov_parliamentary_republic = {
 			factor = 0
 			leader_class = admiral
 			leader_class = general
-			leader_class = governor
+			leader_class = scientist
 		}
 	}
 
