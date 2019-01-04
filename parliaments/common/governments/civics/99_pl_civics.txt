@@ -46,6 +46,8 @@ civic_representative_parliament = {
 				job_senator_per_pop = 0.1
 				edicts_cost_mult = 0.20
 				country_unity_produces_mult = -0.20
+				pop_government_ethic_attraction = -0.05
+				pop_ethics_shift_speed_mult = 0.5
 	}
 }
 		
